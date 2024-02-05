@@ -8,12 +8,61 @@ body {
     font-family: 'Lato', sans-serif;
     background: linear-gradient(0deg, #DBDBD2 85%, #009688 15%);
     height: 100vh;
-    display: flex;
 }
 
 .container {
     margin: auto;
-    background-color: white;
     width: 75%;
     height: 90%;
 }
+
+.flex {
+    display: flex;
+}
+
+.left-side {
+    width: 30%;
+    border-right: 1px solid #D6D6D6;
+}
+
+.right-side {
+    width: 70%;
+}
+
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: #EAEAEA;
+}
+
+/* Left */
+
+.banner {
+    background-color: #8EDAFC;
+    height: 80px;
+}
+
+.search {
+    background-color: #FAFAFA;
+    height: 50px;
+}
+
+.chat-container {
+    height: calc(100% - 200px);
+    background-color: white;
+}
+
+/* /Left */
+/* Right */
+
+.chat {
+    height: calc(100% - 140px);
+    background-image: url(../img/mine.jpg);
+}
+
+.bottom-right {
+    height: 70px;
+    background-color: #F3EEEA;
+}
+
+/* /Right */
