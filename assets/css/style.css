@@ -12,12 +12,17 @@ body {
 
 .container {
     margin: auto;
-    width: 75%;
+    width: 80%;
     height: 90%;
 }
 
 .flex {
     display: flex;
+}
+
+input {
+    border: none;
+    color: gray;
 }
 
 .left-side {
@@ -37,17 +42,63 @@ body {
 
 /* Left */
 
+
+/* Banner */
 .banner {
     background-color: #8EDAFC;
     height: 80px;
+    align-items: center;
+    padding: 0 10px;
 }
 
+.bell {
+    background-color: white;
+    border-radius: 50%;
+}
+
+.fa-bell-slash {
+    color: #8EDAFC;
+    font-size: 20px;
+    padding: 15px 14px;
+}
+
+.banner-text {
+    margin-left: 10px;
+}
+
+.banner a {
+    color: grey;
+}
+
+/* Search */
 .search {
     background-color: #FAFAFA;
     height: 50px;
 }
 
-.chat-container {
+.search-input {
+    margin: auto;
+    background-color: white;
+    width: 95%;
+    height: 80%;
+    border-radius: 10px;
+    border: 1px solid #F5F5F5;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-search {
+    color: grey;
+}
+
+.search input {
+    width: 90%;
+    height: 80%;
+    padding: 8px 20px;
+}
+
+/* Chat List */
+.chat-list {
     height: calc(100% - 200px);
     background-color: white;
 }
