@@ -66,3 +66,49 @@ body {
 }
 
 /* /Right */
+
+/* Responsive */
+
+@media screen and (max-width: 1200px) {
+
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+    .left-side {
+        width: 10%;
+    }
+
+    .banner,
+    .search {
+        display: none;
+    }
+
+    .chat-container {
+        height: calc(100% - 70px);
+    }
+
+    .right-side {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .left-side {
+        display: none;
+    }
+
+    .right-side {
+        width: 100%;
+    }
+
+}
+
+/* /Responsive */
