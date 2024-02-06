@@ -76,7 +76,7 @@ h3 {
 
 .name-chat p {
     color: gray;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .info-chat {
@@ -244,6 +244,10 @@ h6 {
         height: 100%;
     }
 
+    .name-chat p {
+        font-size: 12px;
+    }
+
 }
 
 @media screen and (max-width: 991px) {
@@ -273,7 +277,7 @@ h6 {
         display: none;
     }
 
-    h6 {
+    .chat-list h6 {
         display: none;
     }
 
@@ -283,6 +287,10 @@ h6 {
 
     .right-side {
         width: 90%;
+    }
+
+    .message p {
+        font-size: 14px;
     }
 
 }
@@ -306,6 +314,10 @@ h6 {
         margin: auto 5%;
     }
 
+    .message p {
+        font-size: 13px;
+    }
+
 }
 
 /* /Responsive */
@@ -326,4 +338,16 @@ i:hover {
 
 a:hover {
     color: #293576
+}
+
+.header-img:hover {
+    filter: brightness(0.9);
+}
+
+.chat::-webkit-scrollbar {
+    display: none;
+}
+
+.chat-list::-webkit-scrollbar {
+    display: none;
 }
