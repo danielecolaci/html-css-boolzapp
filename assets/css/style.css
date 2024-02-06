@@ -167,6 +167,48 @@ h6 {
 .chat {
     height: calc(100% - 140px);
     background-image: url(../img/mine.jpg);
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.message {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 5px 0;
+    max-width: 70%;
+    position: relative;
+    clear: both;
+}
+
+.mine {
+    background-color: #D5F9BA;
+    border-top-right-radius: 0;
+    float: right;
+}
+
+.other {
+    background-color: white;
+    border-top-left-radius: 0;
+    float: left;
+}
+
+.message p {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.message h6 {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
+
+.message i {
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    color: #BABABA;
+    font-size: 14px;
 }
 
 .bottom-right {
