@@ -207,7 +207,7 @@ h6 {
     position: absolute;
     top: 4px;
     right: 8px;
-    color: #BABABA;
+    color: rgba(0, 0, 0, 0.2);
     font-size: 14px;
 }
 
@@ -237,12 +237,16 @@ h6 {
 
 /* Responsive */
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1200px) {
 
     .container {
         width: 100%;
         height: 100%;
     }
+
+}
+
+@media screen and (max-width: 991px) {
 
     .left-side {
         width: 10%;
@@ -305,3 +309,21 @@ h6 {
 }
 
 /* /Responsive */
+
+/* Animations */
+
+i:hover {
+    color: #293576;
+}
+
+.search i:hover {
+    color: grey;
+}
+
+.chat-element:hover {
+    background-color: #EAEAEA;
+}
+
+a:hover {
+    color: #293576
+}
