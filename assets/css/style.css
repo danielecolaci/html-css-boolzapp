@@ -74,7 +74,7 @@ h3 {
     line-height: 24px;
 }
 
-.header p {
+.name-chat p {
     color: gray;
     font-size: 12px;
 }
@@ -144,7 +144,22 @@ h4 {
 .chat-list {
     height: calc(100% - 200px);
     background-color: white;
+    overflow-y: scroll;
 }
+
+.chat-element {
+    height: 80px;
+    border-bottom: 1px solid #EAEAEA;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h6 {
+    color: #BABABA;
+    font-weight: 500;
+}
+
 
 /* /Left */
 /* Right */
