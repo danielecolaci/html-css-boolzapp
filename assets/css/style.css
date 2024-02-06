@@ -223,6 +223,18 @@ h6 {
         height: calc(100% - 70px);
     }
 
+    .left-side .name-chat {
+        display: none;
+    }
+
+    h6 {
+        display: none;
+    }
+
+    .chat-element {
+        justify-content: center;
+    }
+
     .right-side {
         width: 90%;
     }
