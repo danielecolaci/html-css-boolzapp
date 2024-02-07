@@ -344,10 +344,14 @@ a:hover {
     filter: brightness(0.9);
 }
 
-.chat::-webkit-scrollbar {
-    display: none;
+::-webkit-scrollbar {
+    width: 4px;
 }
 
-.chat-list::-webkit-scrollbar {
-    display: none;
+::-webkit-scrollbar-thumb {
+    background: #EAEAEA;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #BABABA;
 }
